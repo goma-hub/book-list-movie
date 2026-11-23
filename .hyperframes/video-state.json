@@ -1,14 +1,10 @@
 {
   "version": 1,
   "historyId": "16a84788-67f0-41bd-b918-c415b7700e8f",
-  "currentRevision": null,
+  "currentRevision": "4b058c75-6db4-4e0d-a4cd-1a0ff05a0498",
   "pendingChanges": false,
   "files": {
     "AGENTS.md": {
-      "hash": "729e31835a21c7b42ee006e2aacc63016abc05d26883f871ad3bf206943f2cfb",
-      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\72\\729e31835a21c7b42ee006e2aacc63016abc05d26883f871ad3bf206943f2cfb"
-    },
-    "CLAUDE.md": {
       "hash": "729e31835a21c7b42ee006e2aacc63016abc05d26883f871ad3bf206943f2cfb",
       "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\72\\729e31835a21c7b42ee006e2aacc63016abc05d26883f871ad3bf206943f2cfb"
     },
@@ -27,9 +23,359 @@
     "package.json": {
       "hash": "3c4cbe5f2b3555314d6b816ef88689011295f2f7f277a10a4b221b2502798eaa",
       "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\3c\\3c4cbe5f2b3555314d6b816ef88689011295f2f7f277a10a4b221b2502798eaa"
+    },
+    "video-spec.md": {
+      "hash": "2e0963864a3e6d306e508acd621c77fbd42b98d75f74128166af580306ff9556",
+      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\2e\\2e0963864a3e6d306e508acd621c77fbd42b98d75f74128166af580306ff9556"
+    },
+    "production-plan.md": {
+      "hash": "e504ecf727c58093b7633f1c9a71cf829fcd03a2feec901daa62c584eec141cb",
+      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\e5\\e504ecf727c58093b7633f1c9a71cf829fcd03a2feec901daa62c584eec141cb"
+    },
+    "assets/screens/home.png": {
+      "hash": "0f0aa5dc931579b6cc188daff6911d422785e07358ad23ac578b61dec666ef2e",
+      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\0f\\0f0aa5dc931579b6cc188daff6911d422785e07358ad23ac578b61dec666ef2e"
+    },
+    "assets/screens/create-empty.png": {
+      "hash": "3933d1316db044106508bf34cf78fc2f9870f31b343dea0aff7019b37d927d17",
+      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\39\\3933d1316db044106508bf34cf78fc2f9870f31b343dea0aff7019b37d927d17"
+    },
+    "assets/screens/create-year.png": {
+      "hash": "89f36832b9fa212dcf15b614de1f50cec45f743ac98722122b9537a5e26a6349",
+      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\89\\89f36832b9fa212dcf15b614de1f50cec45f743ac98722122b9537a5e26a6349"
+    },
+    "assets/screens/create-year-month.png": {
+      "hash": "797a819bceb00dd2631d23b19970f70c98a62d28b01f8734f0f5c4806b96d067",
+      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\79\\797a819bceb00dd2631d23b19970f70c98a62d28b01f8734f0f5c4806b96d067"
+    },
+    "assets/screens/detail-old-man-and-sea.png": {
+      "hash": "fc4d055d531391bab5a6d80354188418da29fc2e4cb90db945a2fd910d305da0",
+      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\fc\\fc4d055d531391bab5a6d80354188418da29fc2e4cb90db945a2fd910d305da0"
+    },
+    "assets/screens/edit-old-man-and-sea.png": {
+      "hash": "5696510e11f39ade061fc4867cbf098e29b6835262333badbfa20da40d86d4ee",
+      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\56\\5696510e11f39ade061fc4867cbf098e29b6835262333badbfa20da40d86d4ee"
+    },
+    "assets/screens/delete-confirm.png": {
+      "hash": "e0473634f2734f3224f6105d5ab58d887524419738d4ff57c03ad5897331f361",
+      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\e0\\e0473634f2734f3224f6105d5ab58d887524419738d4ff57c03ad5897331f361"
+    },
+    "assets/screens/all-books.png": {
+      "hash": "e4a500808a8f8b5c6da3b8fb7f7f853f1cae8a83fc54de26b1b2ba4ff5f504c9",
+      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\e4\\e4a500808a8f8b5c6da3b8fb7f7f853f1cae8a83fc54de26b1b2ba4ff5f504c9"
+    },
+    "assets/screens/all-books-scroll.mp4": {
+      "hash": "069ba10026375eb01543be89d9cc767b0002c5238906a4ed17104dfa97176be1",
+      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\06\\069ba10026375eb01543be89d9cc767b0002c5238906a4ed17104dfa97176be1"
     }
   },
-  "revisions": {},
+  "revisions": {
+    "939f1e53-b239-4102-a8ca-95a77787735f": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795423789066,
+      "endedAt": 1795423791077,
+      "files": {
+        "CLAUDE.md": {
+          "before": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\72\\729e31835a21c7b42ee006e2aacc63016abc05d26883f871ad3bf206943f2cfb",
+          "after": null
+        }
+      }
+    },
+    "0a7e1535-1793-4b86-8412-c60955d34d02": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795423861566,
+      "endedAt": 1795423863579,
+      "files": {
+        "CLAUDE.md": {
+          "before": null,
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\72\\729e31835a21c7b42ee006e2aacc63016abc05d26883f871ad3bf206943f2cfb"
+        }
+      }
+    },
+    "fd452a8b-7bd5-43eb-8213-fb51199600c6": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795423898304,
+      "endedAt": 1795423900319,
+      "files": {
+        "CLAUDE.md": {
+          "before": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\72\\729e31835a21c7b42ee006e2aacc63016abc05d26883f871ad3bf206943f2cfb",
+          "after": null
+        }
+      }
+    },
+    "bc2684b0-88cd-4763-bff3-499a7a091e6e": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795424407050,
+      "endedAt": 1795424409737,
+      "files": {
+        "production-plan.md": {
+          "before": null,
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\44\\447f57afd0946431cbae2699ddf6d6579337fd447d2fbde62017e306de8e38fb"
+        },
+        "video-spec.md": {
+          "before": null,
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\53\\533b8c43703cc0740215184bbaab74754e41337f494507412d456cb1285639bb"
+        }
+      }
+    },
+    "a37446d2-1fa1-4bd0-8c68-22f2554f1803": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795424452094,
+      "endedAt": 1795424454663,
+      "files": {
+        "production-plan.md": {
+          "before": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\44\\447f57afd0946431cbae2699ddf6d6579337fd447d2fbde62017e306de8e38fb",
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\3f\\3f07daf4605788203f318ee10370cbb255a88fbcbfd54d807752d15edf0ed0aa"
+        },
+        "video-spec.md": {
+          "before": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\53\\533b8c43703cc0740215184bbaab74754e41337f494507412d456cb1285639bb",
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\0f\\0fe0b4d7cdbf17c767c1230a35e1a87f7d2f414c55128dadefe210d4394606b0"
+        }
+      }
+    },
+    "2eb0c399-01d1-45b7-8321-a71cbcb88c06": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795424927569,
+      "endedAt": 1795424929584,
+      "files": {
+        "video-spec.md": {
+          "before": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\0f\\0fe0b4d7cdbf17c767c1230a35e1a87f7d2f414c55128dadefe210d4394606b0",
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\0e\\0e362948ec98d8c50e5ac8293585fdfbcb1f581e14abaf0ef2fe85e2031570e9"
+        }
+      }
+    },
+    "71d091a0-a57f-49a9-b4ea-ad5b20a79db8": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795424970562,
+      "endedAt": 1795424972572,
+      "files": {
+        "production-plan.md": {
+          "before": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\3f\\3f07daf4605788203f318ee10370cbb255a88fbcbfd54d807752d15edf0ed0aa",
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\3c\\3c1d25ceba59e2f00aec72e115b62df6693453b07af162da2d5a0acca5b91615"
+        }
+      }
+    },
+    "73214238-9799-4309-9e1b-3c4d44aca912": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795425000305,
+      "endedAt": 1795425002858,
+      "files": {
+        "production-plan.md": {
+          "before": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\3c\\3c1d25ceba59e2f00aec72e115b62df6693453b07af162da2d5a0acca5b91615",
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\e5\\e504ecf727c58093b7633f1c9a71cf829fcd03a2feec901daa62c584eec141cb"
+        },
+        "video-spec.md": {
+          "before": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\0e\\0e362948ec98d8c50e5ac8293585fdfbcb1f581e14abaf0ef2fe85e2031570e9",
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\2e\\2e0963864a3e6d306e508acd621c77fbd42b98d75f74128166af580306ff9556"
+        }
+      }
+    },
+    "de2e5b12-bc34-41f2-9127-8396df90a3f3": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795425675309,
+      "endedAt": 1795425677322,
+      "files": {
+        "assets/screens/ChatGPT 画像 2026年11月23日 18_20_23.png": {
+          "before": null,
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\0f\\0f0aa5dc931579b6cc188daff6911d422785e07358ad23ac578b61dec666ef2e"
+        }
+      }
+    },
+    "793b17a5-b405-4726-b6a7-fc84a46356a4": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795425680089,
+      "endedAt": 1795425682096,
+      "files": {
+        "assets/screens/ChatGPT 画像 2026年11月23日 18_20_23.png": {
+          "before": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\0f\\0f0aa5dc931579b6cc188daff6911d422785e07358ad23ac578b61dec666ef2e",
+          "after": null
+        },
+        "assets/screens/ホーム画面.png": {
+          "before": null,
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\0f\\0f0aa5dc931579b6cc188daff6911d422785e07358ad23ac578b61dec666ef2e"
+        }
+      }
+    },
+    "3861d413-3adf-40fd-85de-35da73ba7310": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795425695888,
+      "endedAt": 1795425697896,
+      "files": {
+        "assets/screens/home.png": {
+          "before": null,
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\0f\\0f0aa5dc931579b6cc188daff6911d422785e07358ad23ac578b61dec666ef2e"
+        },
+        "assets/screens/ホーム画面.png": {
+          "before": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\0f\\0f0aa5dc931579b6cc188daff6911d422785e07358ad23ac578b61dec666ef2e",
+          "after": null
+        }
+      }
+    },
+    "b159e82a-e8a5-4d4a-bdaf-927908043994": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795425951905,
+      "endedAt": 1795425953913,
+      "files": {
+        "assets/screens/create-empty.png": {
+          "before": null,
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\39\\3933d1316db044106508bf34cf78fc2f9870f31b343dea0aff7019b37d927d17"
+        }
+      }
+    },
+    "97aa09c9-f2a9-449c-a43d-b4b4abbc05ca": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795426095279,
+      "endedAt": 1795426097287,
+      "files": {
+        "assets/screens/create-year.png": {
+          "before": null,
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\89\\89f36832b9fa212dcf15b614de1f50cec45f743ac98722122b9537a5e26a6349"
+        }
+      }
+    },
+    "eb06227a-351f-4ff6-b978-d815d9110c6b": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795426208045,
+      "endedAt": 1795426210051,
+      "files": {
+        "assets/screens/create-year-month.png": {
+          "before": null,
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\79\\797a819bceb00dd2631d23b19970f70c98a62d28b01f8734f0f5c4806b96d067"
+        }
+      }
+    },
+    "74991549-9d5d-4b23-8498-7b2d625da016": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795426530725,
+      "endedAt": 1795426532738,
+      "files": {
+        "assets/screens/detail-old-man-and-sea.png": {
+          "before": null,
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\fc\\fc4d055d531391bab5a6d80354188418da29fc2e4cb90db945a2fd910d305da0"
+        }
+      }
+    },
+    "8604f7ce-8afb-443e-b0b6-9443be5732d8": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795426819598,
+      "endedAt": 1795426821614,
+      "files": {
+        "assets/screens/edit-old-man-and-sea.png": {
+          "before": null,
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\56\\5696510e11f39ade061fc4867cbf098e29b6835262333badbfa20da40d86d4ee"
+        }
+      }
+    },
+    "11e09f25-a683-49fe-90bd-ceb15ed553ec": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795426836978,
+      "endedAt": 1795426838985,
+      "files": {
+        "assets/screens/delete-confirm.png": {
+          "before": null,
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\e0\\e0473634f2734f3224f6105d5ab58d887524419738d4ff57c03ad5897331f361"
+        }
+      }
+    },
+    "ef01df4e-61a9-466f-a6c4-046206ecadc6": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795427340630,
+      "endedAt": 1795427342631,
+      "files": {
+        "assets/screens/all-books.png": {
+          "before": null,
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\e4\\e4a500808a8f8b5c6da3b8fb7f7f853f1cae8a83fc54de26b1b2ba4ff5f504c9"
+        }
+      }
+    },
+    "4b058c75-6db4-4e0d-a4cd-1a0ff05a0498": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795427363957,
+      "endedAt": 1795427365963,
+      "files": {
+        "assets/screens/all-books-scroll.mp4": {
+          "before": null,
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\06\\069ba10026375eb01543be89d9cc767b0002c5238906a4ed17104dfa97176be1"
+        }
+      }
+    }
+  },
   "checks": {
     "latest": null,
     "revisions": {},

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "16a84788-67f0-41bd-b918-c415b7700e8f",
-  "currentRevision": "4b058c75-6db4-4e0d-a4cd-1a0ff05a0498",
+  "currentRevision": "3f52d57f-2c04-4488-97fd-6ddf5a2ea22f",
   "pendingChanges": false,
   "files": {
     "AGENTS.md": {
@@ -11,10 +11,6 @@
     "hyperframes.json": {
       "hash": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
       "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\53\\53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
-    },
-    "index.html": {
-      "hash": "bb26a8f483c4b8ed34f95e1a3fd8bd97e06440351dcb1c24c71d2abdbb1a1d15",
-      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\bb\\bb26a8f483c4b8ed34f95e1a3fd8bd97e06440351dcb1c24c71d2abdbb1a1d15"
     },
     "meta.json": {
       "hash": "69ae5f235f64620a38d85eaa256718babdc052a778d6b271f3110d4863f090a9",
@@ -67,6 +63,34 @@
     "assets/screens/all-books-scroll.mp4": {
       "hash": "069ba10026375eb01543be89d9cc767b0002c5238906a4ed17104dfa97176be1",
       "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\06\\069ba10026375eb01543be89d9cc767b0002c5238906a4ed17104dfa97176be1"
+    },
+    "index.html": {
+      "hash": "5a4585e4f46bdf3a7d80d244e6fbc1c98733c42403e3f69756fdb21742024de7",
+      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\5a\\5a4585e4f46bdf3a7d80d244e6fbc1c98733c42403e3f69756fdb21742024de7"
+    },
+    "compositions/opening.html": {
+      "hash": "7148e763be1221a0a0f39e1072540cf48a04352a25d858584d7bede1020b5f88",
+      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\71\\7148e763be1221a0a0f39e1072540cf48a04352a25d858584d7bede1020b5f88"
+    },
+    "compositions/home.html": {
+      "hash": "1a41a5eb9626ec30e059e780de7e8186d6eb235b7a4198cc271e89291548c783",
+      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\1a\\1a41a5eb9626ec30e059e780de7e8186d6eb235b7a4198cc271e89291548c783"
+    },
+    "compositions/features.html": {
+      "hash": "d58e46ed4b92aff5cf2fbcf5a9765ea4a425f23b0f8272333ca8e36f50aec087",
+      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\d5\\d58e46ed4b92aff5cf2fbcf5a9765ea4a425f23b0f8272333ca8e36f50aec087"
+    },
+    "compositions/ending.html": {
+      "hash": "2d95624e2cef106b3ecc5d8110252a330674945dc8fa72d2d44138a3e7288d19",
+      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\2d\\2d95624e2cef106b3ecc5d8110252a330674945dc8fa72d2d44138a3e7288d19"
+    },
+    "assets/illustrations/opening.png": {
+      "hash": "f275a82120c0c71772e048f8759618a47a9ed102c3be8315f69cf929c43176b7",
+      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\f2\\f275a82120c0c71772e048f8759618a47a9ed102c3be8315f69cf929c43176b7"
+    },
+    "assets/illustrations/機能紹介用.png": {
+      "hash": "5db5781a5ac73654d2f67abe3e648e3856335bc8792a73fdeb00c142967e727b",
+      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\5d\\5db5781a5ac73654d2f67abe3e648e3856335bc8792a73fdeb00c142967e727b"
     }
   },
   "revisions": {
@@ -374,16 +398,772 @@
           "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\06\\069ba10026375eb01543be89d9cc767b0002c5238906a4ed17104dfa97176be1"
         }
       }
+    },
+    "7013f8d3-2cc6-4d10-ae63-b27a943225a7": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795428105357,
+      "endedAt": 1795428108628,
+      "files": {
+        "index.html": {
+          "before": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\bb\\bb26a8f483c4b8ed34f95e1a3fd8bd97e06440351dcb1c24c71d2abdbb1a1d15",
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\5a\\5a4585e4f46bdf3a7d80d244e6fbc1c98733c42403e3f69756fdb21742024de7"
+        }
+      }
+    },
+    "5774fafd-3f38-4151-812b-a18ee65f93c0": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795428145681,
+      "endedAt": 1795428148275,
+      "files": {
+        "compositions/home.html": {
+          "before": null,
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\67\\67fcc373d0001305896b5785af1b4006008b839e100633c7f7ca770780430f31"
+        },
+        "compositions/opening.html": {
+          "before": null,
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\38\\385a6517a075fbe54c13198dcdf2d1d09f3712efc5d694944ccf709a3db894f9"
+        }
+      }
+    },
+    "4110cb7e-7a70-4f7b-a986-8589e5df8175": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795428214597,
+      "endedAt": 1795428217218,
+      "files": {
+        "compositions/ending.html": {
+          "before": null,
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\99\\996c568bc37e10a04e754af228366dfb09d58acf4e7ce7f69a88bfe7b21d8c24"
+        },
+        "compositions/features.html": {
+          "before": null,
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\59\\593a9e6ef2a642534405fb259e4ec701bf5b9208ce4f1a70b31dd69c5404ddd4"
+        }
+      }
+    },
+    "b3a68ec7-a611-49a7-ba32-81e4062a9100": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795428353058,
+      "endedAt": 1795428355060,
+      "files": {
+        "compositions/opening.html": {
+          "before": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\38\\385a6517a075fbe54c13198dcdf2d1d09f3712efc5d694944ccf709a3db894f9",
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\71\\7148e763be1221a0a0f39e1072540cf48a04352a25d858584d7bede1020b5f88"
+        }
+      }
+    },
+    "78b1b8a0-3827-438c-9ded-56b2bdfa9365": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795428455965,
+      "endedAt": 1795428458609,
+      "files": {
+        "compositions/features.html": {
+          "before": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\59\\593a9e6ef2a642534405fb259e4ec701bf5b9208ce4f1a70b31dd69c5404ddd4",
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\d5\\d58e46ed4b92aff5cf2fbcf5a9765ea4a425f23b0f8272333ca8e36f50aec087"
+        },
+        "compositions/home.html": {
+          "before": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\67\\67fcc373d0001305896b5785af1b4006008b839e100633c7f7ca770780430f31",
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\1a\\1a41a5eb9626ec30e059e780de7e8186d6eb235b7a4198cc271e89291548c783"
+        }
+      }
+    },
+    "e2ec8e70-eb6e-48bc-a3ce-dd19d4e47d27": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795428543666,
+      "endedAt": 1795428545674,
+      "files": {
+        "compositions/ending.html": {
+          "before": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\99\\996c568bc37e10a04e754af228366dfb09d58acf4e7ce7f69a88bfe7b21d8c24",
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\2d\\2d95624e2cef106b3ecc5d8110252a330674945dc8fa72d2d44138a3e7288d19"
+        }
+      }
+    },
+    "2d8c5050-bf4f-4a58-9596-70f2c87512da": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795431543756,
+      "endedAt": 1795431545757,
+      "files": {
+        "assets/illustrations/オープニング用.png": {
+          "before": null,
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\f2\\f275a82120c0c71772e048f8759618a47a9ed102c3be8315f69cf929c43176b7"
+        }
+      }
+    },
+    "8fae5b10-1bb6-41ac-b007-af9ce3dd68bd": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795431551072,
+      "endedAt": 1795431553122,
+      "files": {
+        "assets/illustrations/opening.png": {
+          "before": null,
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\f2\\f275a82120c0c71772e048f8759618a47a9ed102c3be8315f69cf929c43176b7"
+        },
+        "assets/illustrations/オープニング用.png": {
+          "before": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\f2\\f275a82120c0c71772e048f8759618a47a9ed102c3be8315f69cf929c43176b7",
+          "after": null
+        }
+      }
+    },
+    "3f52d57f-2c04-4488-97fd-6ddf5a2ea22f": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795432610976,
+      "endedAt": 1795432612976,
+      "files": {
+        "assets/illustrations/機能紹介用.png": {
+          "before": null,
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\5d\\5db5781a5ac73654d2f67abe3e648e3856335bc8792a73fdeb00c142967e727b"
+        }
+      }
     }
   },
   "checks": {
-    "latest": null,
-    "revisions": {},
+    "latest": {
+      "revision": "e2ec8e70-eb6e-48bc-a3ce-dd19d4e47d27",
+      "id": "f8fe421f-4280-47d3-a598-aca534241a75"
+    },
+    "revisions": {
+      "4110cb7e-7a70-4f7b-a986-8589e5df8175": [
+        {
+          "id": "429595ec-86ce-432e-8149-cb45c1c77c34",
+          "scope": "project",
+          "report": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\checks\\429595ec-86ce-432e-8149-cb45c1c77c34.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "cache": true,
+              "contrast": true,
+              "craft": true,
+              "strict": false,
+              "snapshots": false,
+              "safeZones": [
+                "tiktok",
+                "reels",
+                "shorts"
+              ],
+              "browserGpuMode": "auto",
+              "includeUnmounted": false
+            }
+          },
+          "createdAt": 1795428333960,
+          "contentHash": "4f975a80b643622140029e17f58d7122a28f371f701b4d4452caaa3d2767a68c",
+          "revision": "4110cb7e-7a70-4f7b-a986-8589e5df8175",
+          "inputFingerprint": "a637a9611b120c05b756a6d79bb628f875f39891bbcd97126d89f9b98fc525be",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "78b1b8a0-3827-438c-9ded-56b2bdfa9365": [
+        {
+          "id": "e2bd60de-7491-4ca8-88af-bef088eb1705",
+          "scope": "project",
+          "report": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\checks\\e2bd60de-7491-4ca8-88af-bef088eb1705.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "cache": true,
+              "contrast": true,
+              "craft": true,
+              "strict": false,
+              "snapshots": false,
+              "safeZones": [
+                "tiktok",
+                "reels",
+                "shorts"
+              ],
+              "browserGpuMode": "auto",
+              "includeUnmounted": false
+            }
+          },
+          "createdAt": 1795428490367,
+          "contentHash": "2e049913bca9c4291cca5f504be890b5b64de53196876891590cedd42af2febd",
+          "revision": "78b1b8a0-3827-438c-9ded-56b2bdfa9365",
+          "inputFingerprint": "d65a720b16fff522a4c6125404d5e684c9af466c56fe36f0af93ec88ebd11f1d",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "e2ec8e70-eb6e-48bc-a3ce-dd19d4e47d27": [
+        {
+          "id": "f8fe421f-4280-47d3-a598-aca534241a75",
+          "scope": "project",
+          "report": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\checks\\f8fe421f-4280-47d3-a598-aca534241a75.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "cache": true,
+              "contrast": true,
+              "craft": true,
+              "strict": false,
+              "snapshots": false,
+              "safeZones": [
+                "tiktok",
+                "reels",
+                "shorts"
+              ],
+              "browserGpuMode": "auto",
+              "includeUnmounted": false
+            }
+          },
+          "createdAt": 1795428600414,
+          "contentHash": "2e049913bca9c4291cca5f504be890b5b64de53196876891590cedd42af2febd",
+          "revision": "e2ec8e70-eb6e-48bc-a3ce-dd19d4e47d27",
+          "inputFingerprint": "530e3f4025694f664c2ee203b1bc5a28d9a9707c53d91abc7ffc9b8f41d927c7",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
     "unversioned": []
   },
   "snapshots": {
-    "latest": null,
-    "revisions": {},
+    "latest": {
+      "revision": "e2ec8e70-eb6e-48bc-a3ce-dd19d4e47d27",
+      "id": "1db839c7-5533-427a-8c6a-b1dcc9884906-1"
+    },
+    "revisions": {
+      "b3a68ec7-a611-49a7-ba32-81e4062a9100": [
+        {
+          "scope": "full",
+          "id": "22c9f24c-7deb-47b6-985a-8f6dbcbc40da-0",
+          "image": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\snapshots\\65512615-10be-481f-8fd2-636c55cd38de\\frame-00-at-1s.png",
+          "time": 1,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1795428388283,
+          "contentHash": "89929fa295d532005cfdd3a1c4526babc8a2c4f1437c02d92fce294373ff02fd",
+          "revision": "b3a68ec7-a611-49a7-ba32-81e4062a9100",
+          "inputFingerprint": "7784e202cb99823e6e6f2075c448c6a296dc888c118f9d518b05cb609496c6b7",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "22c9f24c-7deb-47b6-985a-8f6dbcbc40da-1",
+          "image": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\snapshots\\65512615-10be-481f-8fd2-636c55cd38de\\frame-01-at-8s.png",
+          "time": 8,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1795428388283,
+          "contentHash": "1550ca088a964c0ced439fa676aa2dc13c74f2a6b1f0f984002c6afdd78da23d",
+          "revision": "b3a68ec7-a611-49a7-ba32-81e4062a9100",
+          "inputFingerprint": "7784e202cb99823e6e6f2075c448c6a296dc888c118f9d518b05cb609496c6b7",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "22c9f24c-7deb-47b6-985a-8f6dbcbc40da-2",
+          "image": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\snapshots\\65512615-10be-481f-8fd2-636c55cd38de\\frame-02-at-17s.png",
+          "time": 17,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1795428388283,
+          "contentHash": "aff36a08417b52b725023af782dc0d58e6188db8c4bf793e754a6e7bf707f992",
+          "revision": "b3a68ec7-a611-49a7-ba32-81e4062a9100",
+          "inputFingerprint": "7784e202cb99823e6e6f2075c448c6a296dc888c118f9d518b05cb609496c6b7",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "22c9f24c-7deb-47b6-985a-8f6dbcbc40da-3",
+          "image": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\snapshots\\65512615-10be-481f-8fd2-636c55cd38de\\frame-03-at-19s.png",
+          "time": 19,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1795428388283,
+          "contentHash": "6ca78c75230652c8f53bd0105b836675cdbe4a734c2d8602c3add6bcb2deaf1d",
+          "revision": "b3a68ec7-a611-49a7-ba32-81e4062a9100",
+          "inputFingerprint": "7784e202cb99823e6e6f2075c448c6a296dc888c118f9d518b05cb609496c6b7",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "22c9f24c-7deb-47b6-985a-8f6dbcbc40da-4",
+          "image": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\snapshots\\65512615-10be-481f-8fd2-636c55cd38de\\frame-04-at-21s.png",
+          "time": 21,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1795428388284,
+          "contentHash": "8cf18b58370056c8514ecf025fb648f87a22865d830b8bae987898acadcbfefa",
+          "revision": "b3a68ec7-a611-49a7-ba32-81e4062a9100",
+          "inputFingerprint": "7784e202cb99823e6e6f2075c448c6a296dc888c118f9d518b05cb609496c6b7",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "22c9f24c-7deb-47b6-985a-8f6dbcbc40da-5",
+          "image": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\snapshots\\65512615-10be-481f-8fd2-636c55cd38de\\frame-05-at-25s.png",
+          "time": 25,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1795428388284,
+          "contentHash": "fd56773f2240c02ac9bf59c409814bfec4b6b0eb5aa004cb8b18104f8bc199e8",
+          "revision": "b3a68ec7-a611-49a7-ba32-81e4062a9100",
+          "inputFingerprint": "7784e202cb99823e6e6f2075c448c6a296dc888c118f9d518b05cb609496c6b7",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "22c9f24c-7deb-47b6-985a-8f6dbcbc40da-6",
+          "image": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\snapshots\\65512615-10be-481f-8fd2-636c55cd38de\\frame-06-at-29s.png",
+          "time": 29,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1795428388285,
+          "contentHash": "0571112e733ee32fc0e295ae449236ec548afe4464c5a737cfac9e45a24f463b",
+          "revision": "b3a68ec7-a611-49a7-ba32-81e4062a9100",
+          "inputFingerprint": "7784e202cb99823e6e6f2075c448c6a296dc888c118f9d518b05cb609496c6b7",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "22c9f24c-7deb-47b6-985a-8f6dbcbc40da-7",
+          "image": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\snapshots\\65512615-10be-481f-8fd2-636c55cd38de\\frame-07-at-33s.png",
+          "time": 33,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1795428388285,
+          "contentHash": "2a5bec4388240f7cd5d4ab5b3471f07988f61b2f3aed2c9c37eb5caf1ac3f413",
+          "revision": "b3a68ec7-a611-49a7-ba32-81e4062a9100",
+          "inputFingerprint": "7784e202cb99823e6e6f2075c448c6a296dc888c118f9d518b05cb609496c6b7",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "22c9f24c-7deb-47b6-985a-8f6dbcbc40da-8",
+          "image": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\snapshots\\65512615-10be-481f-8fd2-636c55cd38de\\frame-08-at-37s.png",
+          "time": 37,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1795428388286,
+          "contentHash": "491c51a99b3f6d6de6236b8dcf34f329ddd13901e4594d6a2241fdc993330086",
+          "revision": "b3a68ec7-a611-49a7-ba32-81e4062a9100",
+          "inputFingerprint": "7784e202cb99823e6e6f2075c448c6a296dc888c118f9d518b05cb609496c6b7",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "22c9f24c-7deb-47b6-985a-8f6dbcbc40da-9",
+          "image": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\snapshots\\65512615-10be-481f-8fd2-636c55cd38de\\frame-09-at-39s.png",
+          "time": 39,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1795428388286,
+          "contentHash": "bb7e5d2d8613bc80edbadaaa047adba85e1b18464878d8a9399eb3d07e61d09d",
+          "revision": "b3a68ec7-a611-49a7-ba32-81e4062a9100",
+          "inputFingerprint": "7784e202cb99823e6e6f2075c448c6a296dc888c118f9d518b05cb609496c6b7",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "22c9f24c-7deb-47b6-985a-8f6dbcbc40da-10",
+          "image": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\snapshots\\65512615-10be-481f-8fd2-636c55cd38de\\frame-10-at-42s.png",
+          "time": 42,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1795428388287,
+          "contentHash": "80d4626492db05e4a4b6d972a89b8ac63c9b0495c91cb93c5901d47182e8aaf9",
+          "revision": "b3a68ec7-a611-49a7-ba32-81e4062a9100",
+          "inputFingerprint": "7784e202cb99823e6e6f2075c448c6a296dc888c118f9d518b05cb609496c6b7",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "22c9f24c-7deb-47b6-985a-8f6dbcbc40da-11",
+          "image": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\snapshots\\65512615-10be-481f-8fd2-636c55cd38de\\frame-11-at-44.75s.png",
+          "time": 44.75,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1795428388287,
+          "contentHash": "80d4626492db05e4a4b6d972a89b8ac63c9b0495c91cb93c5901d47182e8aaf9",
+          "revision": "b3a68ec7-a611-49a7-ba32-81e4062a9100",
+          "inputFingerprint": "7784e202cb99823e6e6f2075c448c6a296dc888c118f9d518b05cb609496c6b7",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "78b1b8a0-3827-438c-9ded-56b2bdfa9365": [
+        {
+          "scope": "full",
+          "id": "1c68a99f-6b17-46b4-8b5a-d8156e2a18ee-0",
+          "image": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\snapshots\\a35c1861-4214-409f-b92a-d2c5387c056d\\frame-00-at-0s.png",
+          "time": 0,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1795428525267,
+          "contentHash": "b7c183b3b558c2e00332c740a3e427feb27519f8b53ac3f0d9f470684300dd39",
+          "revision": "78b1b8a0-3827-438c-9ded-56b2bdfa9365",
+          "inputFingerprint": "d65a720b16fff522a4c6125404d5e684c9af466c56fe36f0af93ec88ebd11f1d",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "1c68a99f-6b17-46b4-8b5a-d8156e2a18ee-1",
+          "image": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\snapshots\\a35c1861-4214-409f-b92a-d2c5387c056d\\frame-01-at-8s.png",
+          "time": 8,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1795428525268,
+          "contentHash": "9ae929cbfd78084a0289b3c904e29dcd1f93a4807cf8f50608dd6983e2cfcdba",
+          "revision": "78b1b8a0-3827-438c-9ded-56b2bdfa9365",
+          "inputFingerprint": "d65a720b16fff522a4c6125404d5e684c9af466c56fe36f0af93ec88ebd11f1d",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "1c68a99f-6b17-46b4-8b5a-d8156e2a18ee-2",
+          "image": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\snapshots\\a35c1861-4214-409f-b92a-d2c5387c056d\\frame-02-at-17s.png",
+          "time": 17,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1795428525268,
+          "contentHash": "b9b9f249736d5bd9ecfca22c82554a22e0729581304d0fd01009a803dac7420f",
+          "revision": "78b1b8a0-3827-438c-9ded-56b2bdfa9365",
+          "inputFingerprint": "d65a720b16fff522a4c6125404d5e684c9af466c56fe36f0af93ec88ebd11f1d",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "1c68a99f-6b17-46b4-8b5a-d8156e2a18ee-3",
+          "image": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\snapshots\\a35c1861-4214-409f-b92a-d2c5387c056d\\frame-03-at-19s.png",
+          "time": 19,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1795428525269,
+          "contentHash": "dc8ad29d01615f7f907d596914bc37868724ea3db6e839b5e0c615c1a529ea1a",
+          "revision": "78b1b8a0-3827-438c-9ded-56b2bdfa9365",
+          "inputFingerprint": "d65a720b16fff522a4c6125404d5e684c9af466c56fe36f0af93ec88ebd11f1d",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "1c68a99f-6b17-46b4-8b5a-d8156e2a18ee-4",
+          "image": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\snapshots\\a35c1861-4214-409f-b92a-d2c5387c056d\\frame-04-at-21s.png",
+          "time": 21,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1795428525269,
+          "contentHash": "1f717e2dd22e13c0003aef6a1fd84d7b27b80e52f484fc94e2b51675151fadef",
+          "revision": "78b1b8a0-3827-438c-9ded-56b2bdfa9365",
+          "inputFingerprint": "d65a720b16fff522a4c6125404d5e684c9af466c56fe36f0af93ec88ebd11f1d",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "1c68a99f-6b17-46b4-8b5a-d8156e2a18ee-5",
+          "image": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\snapshots\\a35c1861-4214-409f-b92a-d2c5387c056d\\frame-05-at-29s.png",
+          "time": 29,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1795428525270,
+          "contentHash": "f34cc56b687b15bcf0defce15f562efa85586b2b9e038f3bc8c4a8c5e96765ef",
+          "revision": "78b1b8a0-3827-438c-9ded-56b2bdfa9365",
+          "inputFingerprint": "d65a720b16fff522a4c6125404d5e684c9af466c56fe36f0af93ec88ebd11f1d",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "1c68a99f-6b17-46b4-8b5a-d8156e2a18ee-6",
+          "image": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\snapshots\\a35c1861-4214-409f-b92a-d2c5387c056d\\frame-06-at-33s.png",
+          "time": 33,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1795428525270,
+          "contentHash": "69abcf186c7ec0d140732b3c1db70c60e70c4bea96e77a1abb5416f564f2ae37",
+          "revision": "78b1b8a0-3827-438c-9ded-56b2bdfa9365",
+          "inputFingerprint": "d65a720b16fff522a4c6125404d5e684c9af466c56fe36f0af93ec88ebd11f1d",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "1c68a99f-6b17-46b4-8b5a-d8156e2a18ee-7",
+          "image": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\snapshots\\a35c1861-4214-409f-b92a-d2c5387c056d\\frame-07-at-37s.png",
+          "time": 37,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1795428525271,
+          "contentHash": "491c51a99b3f6d6de6236b8dcf34f329ddd13901e4594d6a2241fdc993330086",
+          "revision": "78b1b8a0-3827-438c-9ded-56b2bdfa9365",
+          "inputFingerprint": "d65a720b16fff522a4c6125404d5e684c9af466c56fe36f0af93ec88ebd11f1d",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "1c68a99f-6b17-46b4-8b5a-d8156e2a18ee-8",
+          "image": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\snapshots\\a35c1861-4214-409f-b92a-d2c5387c056d\\frame-08-at-42s.png",
+          "time": 42,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1795428525271,
+          "contentHash": "80d4626492db05e4a4b6d972a89b8ac63c9b0495c91cb93c5901d47182e8aaf9",
+          "revision": "78b1b8a0-3827-438c-9ded-56b2bdfa9365",
+          "inputFingerprint": "d65a720b16fff522a4c6125404d5e684c9af466c56fe36f0af93ec88ebd11f1d",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "1c68a99f-6b17-46b4-8b5a-d8156e2a18ee-9",
+          "image": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\snapshots\\a35c1861-4214-409f-b92a-d2c5387c056d\\frame-09-at-44.75s.png",
+          "time": 44.75,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1795428525272,
+          "contentHash": "80d4626492db05e4a4b6d972a89b8ac63c9b0495c91cb93c5901d47182e8aaf9",
+          "revision": "78b1b8a0-3827-438c-9ded-56b2bdfa9365",
+          "inputFingerprint": "d65a720b16fff522a4c6125404d5e684c9af466c56fe36f0af93ec88ebd11f1d",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "e2ec8e70-eb6e-48bc-a3ce-dd19d4e47d27": [
+        {
+          "scope": "full",
+          "id": "1db839c7-5533-427a-8c6a-b1dcc9884906-0",
+          "image": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\snapshots\\3f5e5500-2b1f-4a6d-b3a0-3bd1f9acc888\\frame-00-at-37s.png",
+          "time": 37,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1795428622978,
+          "contentHash": "a3c5c2aa5899041d4f3f3ae765fc287490db68f41641d801a3cad8e1ae0314d9",
+          "revision": "e2ec8e70-eb6e-48bc-a3ce-dd19d4e47d27",
+          "inputFingerprint": "530e3f4025694f664c2ee203b1bc5a28d9a9707c53d91abc7ffc9b8f41d927c7",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        },
+        {
+          "scope": "full",
+          "id": "1db839c7-5533-427a-8c6a-b1dcc9884906-1",
+          "image": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\snapshots\\3f5e5500-2b1f-4a6d-b3a0-3bd1f9acc888\\frame-01-at-44.75s.png",
+          "time": 44.75,
+          "metadata": {
+            "width": 1920,
+            "height": 1080,
+            "zoomScale": 1,
+            "browserGpuMode": "auto",
+            "warnings": [],
+            "partial": false
+          },
+          "createdAt": 1795428622980,
+          "contentHash": "80d4626492db05e4a4b6d972a89b8ac63c9b0495c91cb93c5901d47182e8aaf9",
+          "revision": "e2ec8e70-eb6e-48bc-a3ce-dd19d4e47d27",
+          "inputFingerprint": "530e3f4025694f664c2ee203b1bc5a28d9a9707c53d91abc7ffc9b8f41d927c7",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ]
+    },
     "unversioned": []
   }
 }

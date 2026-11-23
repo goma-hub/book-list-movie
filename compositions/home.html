@@ -1,0 +1,27 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; overflow: hidden; background: #f7f1e6; color: #4a372b; font-family: "Noto Sans JP", sans-serif; }
+    #home-label { position: absolute; left: 105px; top: 281px; width: 475px; font-size: 29px; letter-spacing: .15em; color: #5d6d55; }
+    #home-copy { position: absolute; left: 105px; top: 354px; width: 475px; font-size: 58px; font-weight: 700; line-height: 1.48; letter-spacing: .02em; }
+    #home-screen { position: absolute; left: 635px; top: 55px; width: 1190px; height: 968px; }
+    #home-image { display: block; width: 100%; height: 100%; object-fit: contain; border-radius: 18px; box-shadow: 0 24px 65px rgba(74,55,43,.17); }
+    #home-accent { position: absolute; left: 105px; top: 624px; width: 105px; height: 5px; border-radius: 5px; background: #a8b99f; }
+  </style>
+  <div id="root" data-composition-id="home" data-width="1920" data-height="1080" data-composition-variables='[{"id":"home_copy_1","type":"string","label":"テロップ1行目","default":"読書の記録を、"},{"id":"home_copy_2","type":"string","label":"テロップ2行目","default":"ひと目で。"}]'>
+    <div id="home-label" class="clip" data-start="0" data-duration="10" data-track-index="1">HOME</div>
+    <div id="home-copy" class="clip" data-start="0" data-duration="10" data-track-index="2"><span data-var-text="home_copy_1">読書の記録を、</span><br /><span data-var-text="home_copy_2">ひと目で。</span></div>
+    <div id="home-accent" data-layout-ignore></div>
+    <div id="home-screen" class="clip" data-start="0" data-duration="10" data-track-index="0">
+      <img id="home-image" src="assets/screens/home.png" alt="読書記録のホーム画面" />
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#home-screen", { opacity: 0 }, { opacity: 1, duration: .65, ease: "power2.out" }, 0);
+    tl.fromTo("#home-image", { scale: 1 }, { scale: 1.035, duration: 9.4, ease: "power1.inOut" }, .25);
+    tl.fromTo("#home-label, #home-copy", { opacity: 0 }, { opacity: 1, duration: .7, ease: "power2.out" }, .3);
+    tl.fromTo("#home-screen, #home-label, #home-copy", { opacity: 1 }, { opacity: 0, duration: .35, ease: "power2.in" }, 9.62);
+    window.__timelines = window.__timelines || {};
+    window.__timelines["home"] = tl;
+  </script>
+</template>

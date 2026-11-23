@@ -1,0 +1,37 @@
+<template>
+  <style>
+    #root { position: absolute; inset: 0; overflow: hidden; background: #f7f1e6; color: #4a372b; font-family: "Noto Sans JP", sans-serif; }
+    #ending-label { position: absolute; left: 105px; top: 280px; width: 460px; font-size: 29px; letter-spacing: .15em; color: #5d6d55; }
+    #ending-intro { position: absolute; left: 105px; top: 355px; width: 480px; font-size: 48px; font-weight: 700; line-height: 1.5; }
+    #ending-still, #ending-video { position: absolute; left: 655px; top: 65px; width: 1160px; height: 950px; object-fit: contain; border-radius: 18px; box-shadow: 0 24px 65px rgba(74,55,43,.17); }
+    #ending-card { position: absolute; inset: 0; background: #f7f1e6; text-align: center; }
+    #ending-card-inner { position: absolute; left: 140px; right: 140px; top: 278px; }
+    #ending-card-rule { width: 115px; height: 5px; margin: 0 auto 38px; border-radius: 5px; background: #a8b99f; }
+    #ending-title { margin: 0; font-size: 110px; line-height: 1.2; font-weight: 700; letter-spacing: .04em; }
+    #ending-tagline { margin: 32px 0 0; font-size: 45px; line-height: 1.5; }
+    #ending-url { margin: 62px 0 0; font-family: "Noto Sans JP", sans-serif; font-size: 31px; line-height: 1.5; color: #4a372b; }
+  </style>
+  <div id="root" data-composition-id="ending" data-width="1920" data-height="1080" data-composition-variables='[{"id":"ending_title","type":"string","label":"タイトル","default":"読書記録"},{"id":"ending_tagline","type":"string","label":"コピー","default":"あなたの読書を、あなたの記録に。"},{"id":"ending_url","type":"string","label":"URL","default":"https://book-list.goma-lab.workers.dev/"}]'>
+    <div id="ending-label" class="clip" data-start="0" data-duration="5" data-track-index="2">ALL BOOKS</div>
+    <div id="ending-intro" class="clip" data-start="0" data-duration="5" data-track-index="3">これまでの読書を、<br />いつでも。</div>
+    <img id="ending-still" class="clip" data-start="0" data-duration="5" data-track-index="0" src="assets/screens/all-books.png" alt="読書記録の全件一覧" />
+    <video id="ending-video" class="clip" data-start="0" data-duration="5" data-track-index="1" src="assets/screens/all-books-scroll.mp4" poster="assets/screens/all-books.png" muted playsinline preload="auto"></video>
+    <div id="ending-card" class="clip" data-start="5" data-duration="5" data-track-index="0" data-hold>
+      <div id="ending-card-inner">
+        <div id="ending-card-rule" data-layout-ignore></div>
+        <h2 id="ending-title" data-var-text="ending_title">読書記録</h2>
+        <p id="ending-tagline" data-var-text="ending_tagline">あなたの読書を、あなたの記録に。</p>
+        <p id="ending-url" data-var-text="ending_url">https://book-list.goma-lab.workers.dev/</p>
+      </div>
+    </div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    tl.fromTo("#ending-video, #ending-still", { opacity: 0 }, { opacity: 1, duration: .5, ease: "power2.out" }, 0);
+    tl.fromTo("#ending-label, #ending-intro", { opacity: 0 }, { opacity: 1, duration: .55, ease: "power2.out" }, .2);
+    tl.fromTo("#ending-video, #ending-still, #ending-label, #ending-intro", { opacity: 1 }, { opacity: 0, duration: .3, ease: "power2.in" }, 4.68);
+    tl.fromTo("#ending-card-inner", { opacity: 0, y: 18 }, { opacity: 1, y: 0, duration: .65, ease: "power3.out" }, 5.08);
+    window.__timelines = window.__timelines || {};
+    window.__timelines["ending"] = tl;
+  </script>
+</template>

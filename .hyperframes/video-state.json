@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "16a84788-67f0-41bd-b918-c415b7700e8f",
-  "currentRevision": "bfde87c5-38a6-4403-9274-f0d7cc383c26",
+  "currentRevision": "ed51f991-95f2-4fd8-b224-82718b405695",
   "pendingChanges": false,
   "files": {
     "AGENTS.md": {
@@ -25,12 +25,12 @@
       "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\3c\\3c4cbe5f2b3555314d6b816ef88689011295f2f7f277a10a4b221b2502798eaa"
     },
     "production-plan.md": {
-      "hash": "1c6cefcdde6e2d0e0ae3e230f888317098d2ff45fbd72dc37492ad431ad9ce4c",
-      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\1c\\1c6cefcdde6e2d0e0ae3e230f888317098d2ff45fbd72dc37492ad431ad9ce4c"
+      "hash": "baede47af3ae5fbbac69e8f613b84c759c107f1b120ff08ff8b1238f955c4ee2",
+      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\ba\\baede47af3ae5fbbac69e8f613b84c759c107f1b120ff08ff8b1238f955c4ee2"
     },
     "video-spec.md": {
-      "hash": "10819c11ae4746269e79f0601ba217426ce2a458557fc64dfb597b998882e924",
-      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\10\\10819c11ae4746269e79f0601ba217426ce2a458557fc64dfb597b998882e924"
+      "hash": "16c4e04dfd617161f25b1cbe5ba11c5ba19be2565bb443989b00c636bde809d1",
+      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\16\\16c4e04dfd617161f25b1cbe5ba11c5ba19be2565bb443989b00c636bde809d1"
     },
     "assets/screens/home.png": {
       "hash": "0f0aa5dc931579b6cc188daff6911d422785e07358ad23ac578b61dec666ef2e",
@@ -136,17 +136,21 @@
       "hash": "473a682cfe9c0550943ce48ce4640e6e398047f9ffac89b780c43989821ff597",
       "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\47\\473a682cfe9c0550943ce48ce4640e6e398047f9ffac89b780c43989821ff597"
     },
-    "codex-video-final-instructions.txt": {
-      "hash": "a5cafa9ba555364daf84e35fbc4c844802c412ddd830ec359b50d9220d46183b",
-      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\a5\\a5cafa9ba555364daf84e35fbc4c844802c412ddd830ec359b50d9220d46183b"
-    },
     "README.md": {
-      "hash": "f08ad2373fac824c6e064874b7bc4f3c67774365c4650c7f704c8cf0262fd5bb",
-      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\f0\\f08ad2373fac824c6e064874b7bc4f3c67774365c4650c7f704c8cf0262fd5bb"
+      "hash": "d47783ded850477da84a4cb0f4233a73f8d41c12a8d50441622d6bc79d27c34e",
+      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\d4\\d47783ded850477da84a4cb0f4233a73f8d41c12a8d50441622d6bc79d27c34e"
     },
     "assets/audio/hiyoko-no-bouken.mp3": {
       "hash": "3d6ef3adfd122f905151a221f7c26484f7504d4efcfa7c21ca820604ab051c1b",
       "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\3d\\3d6ef3adfd122f905151a221f7c26484f7504d4efcfa7c21ca820604ab051c1b"
+    },
+    "読書記録アプリ_紹介動画.mp4": {
+      "hash": "d41fc3159b8dfd3d20d09d5f1fb69da13ab436bb3306b7f4e16b9786d4cbe4ce",
+      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\d4\\d41fc3159b8dfd3d20d09d5f1fb69da13ab436bb3306b7f4e16b9786d4cbe4ce"
+    },
+    "codex-project-cleanup-instructions.txt": {
+      "hash": "55a616b7f8b8ad40ef7eeee26569ad49c883b930ff2577323ed8427e0047b84e",
+      "content": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\55\\55a616b7f8b8ad40ef7eeee26569ad49c883b930ff2577323ed8427e0047b84e"
     }
   },
   "revisions": {
@@ -3289,12 +3293,148 @@
           "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\f0\\f08ad2373fac824c6e064874b7bc4f3c67774365c4650c7f704c8cf0262fd5bb"
         }
       }
+    },
+    "444aa664-1675-47c9-8f48-5f7fbc50997e": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795515309423,
+      "endedAt": 1795515311424,
+      "files": {
+        "読書記録アプリ_紹介動画.mp4": {
+          "before": null,
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\d4\\d41fc3159b8dfd3d20d09d5f1fb69da13ab436bb3306b7f4e16b9786d4cbe4ce"
+        }
+      }
+    },
+    "5554f2f4-96e8-4de7-a783-c964c6db0477": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795515321106,
+      "endedAt": 1795515323114,
+      "files": {
+        "codex-video-final-instructions.txt": {
+          "before": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\a5\\a5cafa9ba555364daf84e35fbc4c844802c412ddd830ec359b50d9220d46183b",
+          "after": null
+        }
+      }
+    },
+    "26c4b485-0f11-4cd4-892a-dd8cfe4220f2": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795515339318,
+      "endedAt": 1795515341318,
+      "files": {
+        "codex-project-cleanup-instructions.txt": {
+          "before": null,
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\55\\55a616b7f8b8ad40ef7eeee26569ad49c883b930ff2577323ed8427e0047b84e"
+        }
+      }
+    },
+    "955dd0f6-a7a7-414a-b616-4048f687d67e": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795515894022,
+      "endedAt": 1795515896495,
+      "files": {
+        "README.md": {
+          "before": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\f0\\f08ad2373fac824c6e064874b7bc4f3c67774365c4650c7f704c8cf0262fd5bb",
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\cf\\cf35930011a84e576108e9c269eae22bc339f61d9eafd5450c07eaf32b48d54c"
+        },
+        "video-spec.md": {
+          "before": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\10\\10819c11ae4746269e79f0601ba217426ce2a458557fc64dfb597b998882e924",
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\e6\\e6e50569b6ccce345f312ca0d61bded913a07a8892900d90f07dc65f0bfdef4c"
+        }
+      }
+    },
+    "c8f76660-4942-4ba6-b31b-1b9776a8dfda": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795515942218,
+      "endedAt": 1795515944687,
+      "files": {
+        "production-plan.md": {
+          "before": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\1c\\1c6cefcdde6e2d0e0ae3e230f888317098d2ff45fbd72dc37492ad431ad9ce4c",
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\a3\\a363ae443d419f0c18538e6232dcdbc3aebde9fb7283589be305662b3236c36a"
+        },
+        "video-spec.md": {
+          "before": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\e6\\e6e50569b6ccce345f312ca0d61bded913a07a8892900d90f07dc65f0bfdef4c",
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\79\\797da7a62db8db3105f809c28b1bd8b23a8ac17b5c5d13bbd4b6ace98ede535d"
+        }
+      }
+    },
+    "1e3cae41-49ae-41db-9280-b5a3d47a5483": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795516071556,
+      "endedAt": 1795516074043,
+      "files": {
+        "README.md": {
+          "before": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\cf\\cf35930011a84e576108e9c269eae22bc339f61d9eafd5450c07eaf32b48d54c",
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\4c\\4c5e93ae9276aa63de7e955ff23820ed8b6e62a50d2d6d48388cd671d3af207a"
+        },
+        "video-spec.md": {
+          "before": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\79\\797da7a62db8db3105f809c28b1bd8b23a8ac17b5c5d13bbd4b6ace98ede535d",
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\2d\\2d7c083efa25bdc6b01386cb291f3885b69615c709aee7993a0685e17bb2d121"
+        }
+      }
+    },
+    "2736fa12-8c4e-4784-8d36-811edab2bca1": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795516089544,
+      "endedAt": 1795516092018,
+      "files": {
+        "production-plan.md": {
+          "before": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\a3\\a363ae443d419f0c18538e6232dcdbc3aebde9fb7283589be305662b3236c36a",
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\ba\\baede47af3ae5fbbac69e8f613b84c759c107f1b120ff08ff8b1238f955c4ee2"
+        },
+        "video-spec.md": {
+          "before": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\2d\\2d7c083efa25bdc6b01386cb291f3885b69615c709aee7993a0685e17bb2d121",
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\16\\16c4e04dfd617161f25b1cbe5ba11c5ba19be2565bb443989b00c636bde809d1"
+        }
+      }
+    },
+    "ed51f991-95f2-4fd8-b224-82718b405695": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795516251212,
+      "endedAt": 1795516253219,
+      "files": {
+        "README.md": {
+          "before": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\4c\\4c5e93ae9276aa63de7e955ff23820ed8b6e62a50d2d6d48388cd671d3af207a",
+          "after": "C:\\Users\\asana\\.cache\\hyperframes\\history\\16a84788-67f0-41bd-b918-c415b7700e8f\\blobs\\d4\\d47783ded850477da84a4cb0f4233a73f8d41c12a8d50441622d6bc79d27c34e"
+        }
+      }
     }
   },
   "checks": {
     "latest": {
-      "revision": null,
-      "id": "2ef641c9-145d-443e-8552-6b028e29d400"
+      "revision": "2736fa12-8c4e-4784-8d36-811edab2bca1",
+      "id": "0caa9f26-87bb-432c-ad83-a794e911eb71"
     },
     "revisions": {
       "4110cb7e-7a70-4f7b-a986-8589e5df8175": [
@@ -4204,6 +4344,43 @@
           "contentHash": "b6d4c7349821077847736b2fdaadda7aff399d94b9c0b4f100619b3e4f1be96a",
           "revision": "05811469-844f-407c-92fe-ce96965bef69",
           "inputFingerprint": "85b136981150391452ef3dad0577929f2bfc2389b647689b12c2c8dca48eee3f",
+          "inputScope": "local-project-files",
+          "attribution": "recorded-revision"
+        }
+      ],
+      "2736fa12-8c4e-4784-8d36-811edab2bca1": [
+        {
+          "id": "0caa9f26-87bb-432c-ad83-a794e911eb71",
+          "scope": "project",
+          "report": "C:\\Users\\asana\\自作アプリ\\book-list-movie\\.hyperframes\\artifacts\\checks\\0caa9f26-87bb-432c-ad83-a794e911eb71.json",
+          "metadata": {
+            "ok": true,
+            "browserSkipped": false,
+            "options": {
+              "samples": 9,
+              "atTransitions": false,
+              "maxIssues": 80,
+              "collapseStatic": true,
+              "tolerance": 2,
+              "timeout": 45000,
+              "cache": true,
+              "contrast": true,
+              "craft": true,
+              "strict": false,
+              "snapshots": false,
+              "safeZones": [
+                "tiktok",
+                "reels",
+                "shorts"
+              ],
+              "browserGpuMode": "auto",
+              "includeUnmounted": false
+            }
+          },
+          "createdAt": 1795516142545,
+          "contentHash": "b6d4c7349821077847736b2fdaadda7aff399d94b9c0b4f100619b3e4f1be96a",
+          "revision": "2736fa12-8c4e-4784-8d36-811edab2bca1",
+          "inputFingerprint": "c0b27608f72647f011167d1dba4e996d07b7eb7eab315c6c7e31b0c4d2cbb284",
           "inputScope": "local-project-files",
           "attribution": "recorded-revision"
         }

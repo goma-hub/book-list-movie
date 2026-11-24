@@ -1,0 +1,8 @@
+# Regenerable HyperFrames caches and inspection output.
+/node_modules/
+/.hyperframes/artifacts/
+/.hyperframes/cache/
+/.hyperframes/preview/
+/.thumbnails/
+/.transcode-cache/
+/.waveform-cache/

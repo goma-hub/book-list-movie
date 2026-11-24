@@ -45,6 +45,7 @@ npm run render
 
 ## 素材とライセンス
 
-- フォント：Zen Old Minchoは[SIL Open Font License 1.1](assets/fonts/OFL.txt)です。
-- BGM：[BGMer「ひよこの冒険」](https://bgmer.net/music/372/)（[利用規約](https://bgmer.net/terms/)）。通常のBGM利用は個人・商用とも無料で、クレジット表記は任意です。
-- アプリ画面とイラスト：`assets/`に収録。これらの素材の再利用条件は、このリポジトリには明記されていません。
+- 装飾イラストと書籍の表紙画像：生成AIで制作しました。
+- アプリ画面：自作アプリを撮影しました。表示されるデモデータは自分で登録したものです。
+- フォント：見出しにZen Old Mincho（Regular・SemiBold）、本文にNoto Sans JPを使用しています。どちらもSIL Open Font License 1.1です。Zen Old Minchoの実ファイルと[ライセンス文書](assets/fonts/OFL.txt)は`assets/fonts/`に収録しています（[Noto Sans JPのライセンス](https://github.com/google/fonts/blob/main/ofl/notosansjp/OFL.txt)）。
+- BGM：[BGMer「ひよこの冒険」](https://bgmer.net/music/372/)（[利用規約](https://bgmer.net/terms/)）。個人・商用利用可、クレジット表記は任意です。

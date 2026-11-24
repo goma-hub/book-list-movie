@@ -11,40 +11,54 @@
     .feature-shot { position: absolute; left: 635px; top: 55px; width: 1190px; height: 968px; opacity: 0; z-index: 1; }
     #features-shot-home { left: 574px; top: 61px; overflow: hidden; border-radius: 18px; opacity: 1; }
     #features-shot-home img { box-shadow: none; }
-    #features-shot-empty { opacity: 1; }
-    #features-shot-year { opacity: 1; }
-    #features-shot-year-month { opacity: 1; }
+    #features-shot-empty { opacity: 1; overflow: hidden; border-radius: 18px; }
+    #register-screen { position: absolute; inset: 0; transform-origin: 536px 489px; }
+    #features-shot-year, #features-shot-year-month { opacity: 1; overflow: hidden; border-radius: 18px; background: #fff; }
+    #features-shot-year img, #features-shot-year-month img { position: absolute; left: -160px; top: 30px; width: 1613px; height: 907px; max-width: none; object-fit: cover; }
     .feature-shot img { display: block; width: 100%; height: 100%; object-fit: contain; border-radius: 18px; box-shadow: 0 24px 65px rgba(74,55,43,.17); }
     #register-title-focus { position: absolute; left: 380px; top: 278px; width: 504px; height: 56px; border: 2px solid rgba(51,126,213,.25); border-radius: 11px; box-shadow: 0 0 11px rgba(51,126,213,.12); opacity: 0; pointer-events: none; }
     #register-title-entry { position: absolute; left: 391px; top: 291px; width: 474px; height: 32px; display: flex; align-items: center; background: #fff; color: #242424; font-family: Arial, "Noto Sans JP", sans-serif; font-size: 17px; line-height: 1; opacity: 0; pointer-events: none; }
     #register-title-entry span { opacity: 0; }
-    #register-cursor { position: absolute; left: 0; top: 0; width: 70px; height: 70px; z-index: 5; opacity: 0; pointer-events: none; filter: drop-shadow(2px 4px 3px rgba(0,0,0,.3)); }
-    #register-cursor svg { display: block; width: 100%; height: 100%; margin-left: -15px; margin-top: -9px; fill: #fff; stroke: #1c1c1c; stroke-width: 1.4; stroke-linejoin: round; }
+    #register-cursor, #date-cursor { position: absolute; left: 0; top: 0; width: 70px; height: 70px; z-index: 5; opacity: 0; pointer-events: none; filter: drop-shadow(2px 4px 3px rgba(0,0,0,.3)); }
+    #register-cursor svg, #date-cursor svg { display: block; width: 100%; height: 100%; margin-left: -15px; margin-top: -9px; fill: #fff; stroke: #1c1c1c; stroke-width: 1.4; stroke-linejoin: round; }
+    .date-field-cover { position: absolute; left: 351px; top: 284px; width: 480px; height: 45px; background: #fff; opacity: 0; pointer-events: none; }
+    .date-entry { position: absolute; left: 355px; top: 284px; height: 45px; display: flex; align-items: center; color: #242424; font-family: Arial, "Noto Sans JP", sans-serif; font-size: 24px; line-height: 1; white-space: pre; opacity: 0; pointer-events: none; }
+    .date-entry span { opacity: 0; }
+    .feature-pop { position: absolute; z-index: 6; padding: 6px 19px 8px; border: 2px solid #a8b99f; border-radius: 999px; background: #fffdf8; color: #52725d; box-shadow: 0 8px 22px rgba(74,55,43,.17); font-size: 31px; font-weight: 800; line-height: 1.1; letter-spacing: .04em; opacity: 0; pointer-events: none; transform-origin: 50% 80%; }
+    #register-ok { left: 1305px; top: 790px; }
+    #year-ok, #year-month-ok { left: 1605px; top: 278px; }
+    #calendar-callout { left: 1565px; top: 250px; font-size: 27px; }
   </style>
   <div data-hf-id="hf-vklw" id="root" data-composition-id="features" data-width="1920" data-height="1080" data-composition-variables="[{&quot;id&quot;:&quot;feature_register_1&quot;,&quot;type&quot;:&quot;string&quot;,&quot;label&quot;:&quot;登録テロップ&quot;,&quot;default&quot;:&quot;入れたい項目だけで登録&quot;},{&quot;id&quot;:&quot;feature_date_1&quot;,&quot;type&quot;:&quot;string&quot;,&quot;label&quot;:&quot;日付テロップ1行目&quot;,&quot;default&quot;:&quot;年だけ、&quot;},{&quot;id&quot;:&quot;feature_date_2&quot;,&quot;type&quot;:&quot;string&quot;,&quot;label&quot;:&quot;日付テロップ2行目&quot;,&quot;default&quot;:&quot;年と月だけでも、&quot;},{&quot;id&quot;:&quot;feature_date_3&quot;,&quot;type&quot;:&quot;string&quot;,&quot;label&quot;:&quot;日付テロップ3行目&quot;,&quot;default&quot;:&quot;登録可能&quot;},{&quot;id&quot;:&quot;feature_detail_1&quot;,&quot;type&quot;:&quot;string&quot;,&quot;label&quot;:&quot;詳細テロップ1行目&quot;,&quot;default&quot;:&quot;写真も&quot;},{&quot;id&quot;:&quot;feature_detail_2&quot;,&quot;type&quot;:&quot;string&quot;,&quot;label&quot;:&quot;詳細テロップ2行目&quot;,&quot;default&quot;:&quot;メモも残せる&quot;},{&quot;id&quot;:&quot;feature_edit_1&quot;,&quot;type&quot;:&quot;string&quot;,&quot;label&quot;:&quot;編集テロップ1行目&quot;,&quot;default&quot;:&quot;あとから編集&quot;},{&quot;id&quot;:&quot;feature_edit_2&quot;,&quot;type&quot;:&quot;string&quot;,&quot;label&quot;:&quot;編集テロップ2行目&quot;,&quot;default&quot;:&quot;削除も可能&quot;}]">
-    <img data-hf-id="hf-54j6" id="features-bg" src="assets/illustrations/common-bg-base.png" alt="" data-layout-ignore="" data-start="0" data-duration="22">
-    <div data-hf-id="hf-aepv" id="features-label" class="clip" data-start="0" data-duration="22" data-track-index="2">FEATURES</div>
+    <img data-hf-id="hf-54j6" id="features-bg" src="assets/illustrations/common-bg-base.png" alt="" data-layout-ignore="" data-start="0" data-duration="26">
+    <div data-hf-id="hf-aepv" id="features-label" class="clip" data-start="0" data-duration="26" data-track-index="2">FEATURES</div>
 
-    <div data-hf-id="hf-wgx1" id="features-copy-register" class="clip feature-copy" data-start="0" data-duration="5.5" data-track-index="1"><span data-hf-studio-original-inline-translate="" style="translate: -19px 0px" data-hf-id="hf-rk0z" id="register-line-1" data-var-text="feature_register_1">入れたい項目だけで登録</span></div>
-    <div data-hf-id="hf-aits" id="features-copy-date" class="clip feature-copy" data-start="5.5" data-duration="4" data-track-index="1"><span data-hf-id="hf-6gbp" id="date-line-1" data-var-text="feature_date_1">年だけ、</span><br data-hf-id="hf-rsrt"><span data-hf-id="hf-otig" id="date-line-2" data-var-text="feature_date_2">年と月だけでも、</span><br data-hf-id="hf-szow"><span data-hf-id="hf-g60q" id="date-line-3" data-var-text="feature_date_3">登録可能</span></div>
-    <div data-hf-id="hf-svfs" id="features-copy-detail" class="clip feature-copy" data-start="9.5" data-duration="5" data-track-index="1"><span data-hf-id="hf-subr" id="detail-line-1" data-var-text="feature_detail_1">写真も</span><br data-hf-id="hf-sldv"><span data-hf-id="hf-itez" id="detail-line-2" data-var-text="feature_detail_2">メモも残せる</span></div>
-    <div data-hf-id="hf-jejp" id="features-copy-edit" class="clip feature-copy" data-start="14.5" data-duration="7.5" data-track-index="1"><span data-hf-id="hf-5n6p" id="edit-line-1" data-var-text="feature_edit_1">あとから編集</span><br data-hf-id="hf-x5px"><span data-hf-id="hf-hqcl" id="edit-line-2" data-var-text="feature_edit_2">削除も可能</span></div>
+    <div data-hf-id="hf-wgx1" id="features-copy-register" class="clip feature-copy" data-start="0" data-duration="6.8" data-track-index="1"><span data-hf-studio-original-inline-translate="" style="translate: -19px 0px" data-hf-id="hf-rk0z" id="register-line-1" data-var-text="feature_register_1">入れたい項目だけで登録</span></div>
+    <div data-hf-id="hf-aits" id="features-copy-date" class="clip feature-copy" data-start="6.8" data-duration="6.7" data-track-index="1"><span data-hf-id="hf-6gbp" id="date-line-1" data-var-text="feature_date_1">年だけ、</span><br data-hf-id="hf-rsrt"><span data-hf-id="hf-otig" id="date-line-2" data-var-text="feature_date_2">年と月だけでも、</span><br data-hf-id="hf-szow"><span data-hf-id="hf-g60q" id="date-line-3" data-var-text="feature_date_3">登録可能</span></div>
+    <div data-hf-id="hf-svfs" id="features-copy-detail" class="clip feature-copy" data-start="13.5" data-duration="5" data-track-index="1"><span data-hf-id="hf-subr" id="detail-line-1" data-var-text="feature_detail_1">写真も</span><br data-hf-id="hf-sldv"><span data-hf-id="hf-itez" id="detail-line-2" data-var-text="feature_detail_2">メモも残せる</span></div>
+    <div data-hf-id="hf-jejp" id="features-copy-edit" class="clip feature-copy" data-start="18.5" data-duration="7.5" data-track-index="1"><span data-hf-id="hf-5n6p" id="edit-line-1" data-var-text="feature_edit_1">あとから編集</span><br data-hf-id="hf-x5px"><span data-hf-id="hf-hqcl" id="edit-line-2" data-var-text="feature_edit_2">削除も可能</span></div>
 
     <div id="features-shot-home" class="clip feature-shot" data-start="0" data-duration="2.35" data-track-index="0"><img id="features-home-image" src="assets/screens/home.png" alt="読書記録のホーム画面"></div>
-    <div data-hf-studio-original-inline-translate="" style="translate: -8px -1px" data-hf-id="hf-s1vf" id="features-shot-empty" class="clip feature-shot" data-start="2.35" data-duration="3.15" data-track-index="0"><img data-hf-id="hf-o3jc" src="assets/screens/create-empty.png" alt="新しい読書記録の入力画面"><div id="register-title-focus" aria-hidden="true"></div><div id="register-title-entry" class="clip" data-start="3.2" data-duration="2.3" aria-label="走れメロス"><span id="register-char-1">走</span><span id="register-char-2">れ</span><span id="register-char-3">メ</span><span id="register-char-4">ロ</span><span id="register-char-5">ス</span></div></div>
-    <div data-hf-id="hf-xlux" id="features-shot-year" class="clip feature-shot" data-start="5.5" data-duration="2" data-track-index="0"><img data-hf-id="hf-pw00" src="assets/screens/create-year.png" alt="読了日に年だけを入力した画面"></div>
-    <div data-hf-id="hf-s6ou" id="features-shot-year-month" class="clip feature-shot" data-start="7.5" data-duration="2.4" data-track-index="0"><img data-hf-id="hf-7gaw" src="assets/screens/create-year-month.png" alt="読了日に年と月を入力した画面"></div>
-    <div data-hf-id="hf-77wu" id="features-shot-detail" class="clip feature-shot" data-start="9.5" data-duration="5.4" data-track-index="0"><img data-hf-id="hf-geq8" src="assets/screens/detail-old-man-and-sea.png" alt="本の詳細と写真、メモ"></div>
-    <div data-hf-id="hf-qsmk" id="features-shot-edit" class="clip feature-shot" data-start="14.5" data-duration="4.4" data-track-index="0"><img data-hf-id="hf-q85m" src="assets/screens/edit-old-man-and-sea.png" alt="読書記録の編集画面"></div>
-    <div data-hf-id="hf-29id" id="features-shot-delete" class="clip feature-shot" data-start="18.5" data-duration="3.5" data-track-index="0"><img data-hf-id="hf-0pgy" src="assets/screens/delete-confirm.png" alt="読書記録の削除確認画面"></div>
-    <div id="register-cursor" class="clip" data-start="1.2" data-duration="4.3" data-track-index="3" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3 L5 19 L9 15 L12 22 L15 20.5 L11.5 14 L18 14 Z"/></svg></div>
-    <img data-hf-id="hf-beaa" id="features-deco-bottom" src="assets/illustrations/common-deco-bottom-left.png" alt="" data-layout-ignore="" data-start="0" data-duration="22" style="--hf-studio-width: 487px; --hf-studio-height: 324px; width: 487px; height: 324px; min-width: 0px; min-height: 0px; max-width: none; max-height: none; box-sizing: border-box; translate: 13.129px -24.884px">
-    <img data-hf-id="hf-tprn" id="features-deco-top" src="assets/illustrations/common-deco-top-right.png" alt="" data-layout-ignore="" data-start="0" data-duration="22">
+    <div data-hf-studio-original-inline-translate="" style="translate: -8px -1px" data-hf-id="hf-s1vf" id="features-shot-empty" class="clip feature-shot" data-start="2.35" data-duration="4.85" data-track-index="0"><div id="register-screen"><img data-hf-id="hf-o3jc" src="assets/screens/create-empty.png" alt="新しい読書記録の入力画面"><div id="register-title-focus" aria-hidden="true"></div><div id="register-title-entry" class="clip" data-start="3.85" data-duration="3.35" aria-label="走れメロス"><span id="register-char-1">走</span><span id="register-char-2">れ</span><span id="register-char-3">メ</span><span id="register-char-4">ロ</span><span id="register-char-5">ス</span></div></div></div>
+    <div data-hf-id="hf-xlux" id="features-shot-year" class="clip feature-shot" data-start="6.8" data-duration="2.55" data-track-index="0"><img data-hf-id="hf-pw00" src="assets/screens/create-yearZoom-empty.png" alt="読了日が空欄の入力画面"><div id="year-field-cover" class="date-field-cover" aria-hidden="true"></div><div id="year-entry" class="date-entry" aria-label="2026"><span id="year-char-1">2</span><span id="year-char-2">0</span><span id="year-char-3">2</span><span id="year-char-4">6</span></div></div>
+    <div data-hf-id="hf-s6ou" id="features-shot-year-month" class="clip feature-shot" data-start="9.35" data-duration="4.55" data-track-index="0"><img data-hf-id="hf-7gaw" src="assets/screens/create-yearZoom-empty.png" alt="読了日が空欄の入力画面"><div id="year-month-field-cover" class="date-field-cover" aria-hidden="true"></div><div id="year-month-entry" class="date-entry" aria-label="2026-11"><span id="month-char-1">2</span><span id="month-char-2">0</span><span id="month-char-3">2</span><span id="month-char-4">6</span><span id="month-char-5">-</span><span id="month-char-6">1</span><span id="month-char-7">1</span></div></div>
+    <div data-hf-id="hf-77wu" id="features-shot-detail" class="clip feature-shot" data-start="13.5" data-duration="5.4" data-track-index="0"><img data-hf-id="hf-geq8" src="assets/screens/detail-old-man-and-sea.png" alt="本の詳細と写真、メモ"></div>
+    <div data-hf-id="hf-qsmk" id="features-shot-edit" class="clip feature-shot" data-start="18.5" data-duration="4.4" data-track-index="0"><img data-hf-id="hf-q85m" src="assets/screens/edit-old-man-and-sea.png" alt="読書記録の編集画面"></div>
+    <div data-hf-id="hf-29id" id="features-shot-delete" class="clip feature-shot" data-start="22.5" data-duration="3.5" data-track-index="0"><img data-hf-id="hf-0pgy" src="assets/screens/delete-confirm.png" alt="読書記録の削除確認画面"></div>
+    <div id="register-cursor" class="clip" data-start="1.2" data-duration="5.6" data-track-index="3" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3 L5 19 L9 15 L12 22 L15 20.5 L11.5 14 L18 14 Z"/></svg></div>
+    <div id="date-cursor" class="clip" data-start="11.35" data-duration="1.85" data-track-index="3" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 3 L5 19 L9 15 L12 22 L15 20.5 L11.5 14 L18 14 Z"/></svg></div>
+    <div id="register-ok" class="clip feature-pop" data-start="5.9" data-duration=".9" data-track-index="4">OK！</div>
+    <div id="year-ok" class="clip feature-pop" data-start="8.02" data-duration=".72" data-track-index="4">OK！</div>
+    <div id="year-month-ok" class="clip feature-pop" data-start="10.57" data-duration=".72" data-track-index="4">OK！</div>
+    <div id="calendar-callout" class="clip feature-pop" data-start="12.08" data-duration="1.42" data-track-index="4">カレンダーからでも</div>
+    <img data-hf-id="hf-beaa" id="features-deco-bottom" src="assets/illustrations/common-deco-bottom-left.png" alt="" data-layout-ignore="" data-start="0" data-duration="26" style="--hf-studio-width: 487px; --hf-studio-height: 324px; width: 487px; height: 324px; min-width: 0px; min-height: 0px; max-width: none; max-height: none; box-sizing: border-box; translate: 13.129px -24.884px">
+    <img data-hf-id="hf-tprn" id="features-deco-top" src="assets/illustrations/common-deco-top-right.png" alt="" data-layout-ignore="" data-start="0" data-duration="26">
   </div>
   <script>
     gsap.set(".feature-shot img", { x: -61.017, y: 6.155 });
     gsap.set("#features-home-image", { x: 0, y: 0, transformOrigin: "0 0" });
     gsap.set("#register-cursor", { x: 1420, y: 680, transformOrigin: "15px 9px" });
+    gsap.set("#date-cursor", { x: 1370, y: 615, transformOrigin: "15px 9px" });
     const tl = gsap.timeline({ paused: true });
     tl.fromTo("#features-label", { opacity: .18 }, { opacity: 1, duration: .65, ease: "power2.out" }, 0);
     tl.fromTo("#features-home-image", { scale: 1, x: 0, y: 0 }, { scale: 2, x: -36, y: -50, duration: .72, ease: "power2.inOut" }, .65);
@@ -53,31 +67,51 @@
     tl.to("#register-cursor", { scale: .9, duration: .09, ease: "power2.in" }, 2.12);
     tl.to("#register-cursor", { scale: 1, duration: .14, ease: "power2.out" }, 2.21);
     tl.set("#register-cursor", { x: 1254, y: 355 }, 2.35);
+    tl.fromTo("#register-screen", { scale: 1 }, { scale: 1.35, duration: .72, ease: "power2.inOut" }, 2.38);
     tl.fromTo("#register-title-focus", { opacity: 0 }, { opacity: .65, duration: .28, ease: "power2.out" }, 2.53);
-    tl.set("#register-title-entry", { opacity: 1 }, 3.2);
+    tl.set("#register-title-entry", { opacity: 1 }, 3.85);
     ["走", "れ", "メ", "ロ", "ス"].forEach((_, index) => {
-      tl.set(`#register-char-${index + 1}`, { opacity: 1 }, 3.35 + index * .14);
+      tl.set(`#register-char-${index + 1}`, { opacity: 1 }, 4 + index * .14);
     });
-    tl.to("#register-cursor", { x: 1343, y: 815, duration: .72, ease: "power2.inOut" }, 4.25);
-    tl.to("#register-cursor", { scale: .9, duration: .09, ease: "power2.in" }, 5.1);
-    tl.to("#register-cursor", { scale: 1, duration: .14, ease: "power2.out" }, 5.19);
+    tl.to("#register-cursor", { x: 1390, y: 900, duration: .72, ease: "power2.inOut" }, 4.9);
+    tl.to("#register-cursor", { scale: .9, duration: .09, ease: "power2.in" }, 5.75);
+    tl.to("#register-cursor", { scale: 1, duration: .14, ease: "power2.out" }, 5.84);
+    function pop(selector, start, hold) {
+      tl.fromTo(selector, { opacity: 0, scale: .45, y: 12 }, { opacity: 1, scale: 1.08, y: -3, duration: .23, ease: "back.out(1.8)" }, start);
+      tl.to(selector, { scale: 1, y: 0, duration: .17, ease: "power2.out" }, start + .23);
+      tl.to(selector, { opacity: 0, scale: .92, y: -9, duration: .2, ease: "power2.in" }, start + hold);
+    }
+    pop("#register-ok", 5.9, .65);
+    tl.fromTo("#features-shot-year", { opacity: 0 }, { opacity: 1, duration: .4, ease: "power2.inOut" }, 6.8);
+    tl.set(["#year-field-cover", "#year-entry"], { opacity: 1 }, 7.42);
+    ["2", "0", "2", "6"].forEach((_, index) => {
+      tl.set(`#year-char-${index + 1}`, { opacity: 1 }, 7.42 + index * .12);
+    });
+    pop("#year-ok", 8.02, .5);
+    tl.set(["#year-month-field-cover", "#year-month-entry"], { opacity: 1 }, 9.62);
+    ["2", "0", "2", "6", "-", "1", "1"].forEach((_, index) => {
+      tl.set(`#month-char-${index + 1}`, { opacity: 1 }, 9.62 + index * .12);
+    });
+    pop("#year-month-ok", 10.57, .5);
+    tl.to("#date-cursor", { opacity: 1, duration: .16, ease: "power1.out" }, 11.35);
+    tl.to("#date-cursor", { x: 1758, y: 358, duration: .62, ease: "power2.inOut" }, 11.42);
+    tl.to("#date-cursor", { scale: .88, duration: .08, ease: "power2.in" }, 12.08);
+    tl.to("#date-cursor", { scale: 1, duration: .13, ease: "power2.out" }, 12.16);
+    tl.to("#date-cursor", { opacity: 0, duration: .15, ease: "power2.in" }, 12.42);
+    pop("#calendar-callout", 12.08, 1.16);
     const shots = [
-      ["#features-shot-year", 5.5],
-      ["#features-shot-year-month", 7.5],
-      ["#features-shot-detail", 9.5],
-      ["#features-shot-edit", 14.5],
-      ["#features-shot-delete", 18.5]
+      ["#features-shot-detail", 13.5],
+      ["#features-shot-edit", 18.5],
+      ["#features-shot-delete", 22.5]
     ];
-    shots.forEach(([selector, start], index) => {
-      if (index !== 0 && index !== 1) {
-        tl.fromTo(selector, { opacity: 0 }, { opacity: 1, duration: .4, ease: "power2.out" }, start);
-      }
+    shots.forEach(([selector, start]) => {
+      tl.fromTo(selector, { opacity: 0 }, { opacity: 1, duration: .4, ease: "power2.out" }, start);
     });
     const lines = [
       ["#register-line-1", .9],
-      ["#date-line-1", 5.7], ["#date-line-2", 6.65], ["#date-line-3", 7.6],
-      ["#detail-line-1", 10.4], ["#detail-line-2", 11.35],
-      ["#edit-line-1", 15.4], ["#edit-line-2", 18.6]
+      ["#date-line-1", 7], ["#date-line-2", 7.95], ["#date-line-3", 8.9],
+      ["#detail-line-1", 14.4], ["#detail-line-2", 15.35],
+      ["#edit-line-1", 19.4], ["#edit-line-2", 22.6]
     ];
     lines.forEach(([selector, start]) => {
       tl.fromTo(selector, { opacity: 0 }, { opacity: 1, duration: 1.2, ease: "power1.inOut" }, start);

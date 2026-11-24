@@ -1,26 +1,34 @@
 <template>
   <style>
-    #root { position: absolute; inset: 0; overflow: hidden; background: #f7f1e6; color: #4a372b; font-family: "Noto Sans JP", sans-serif; }
-    #home-label { position: absolute; left: 105px; top: 281px; width: 475px; font-size: 29px; letter-spacing: .15em; color: #5d6d55; }
+    #root { position: absolute; inset: 0; overflow: hidden; background: #f7f1e6 url('assets/illustrations/common-bg-base.png') center / cover no-repeat; color: #4a372b; font-family: "Noto Sans JP", sans-serif; }
+    #home-bg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+    #home-deco-bottom { position: absolute; left: 0; bottom: -4px; width: 390px; height: auto; z-index: 3; opacity: .86; }
+    #home-deco-top { position: absolute; right: 16px; top: 8px; width: 190px; height: auto; z-index: 3; opacity: .8; }
+    #home-label { position: absolute; left: 105px; top: 281px; width: 475px; font-size: 29px; letter-spacing: .15em; color: #5d6d55; opacity: .18; }
     #home-copy { position: absolute; left: 105px; top: 354px; width: 475px; font-size: 58px; font-weight: 700; line-height: 1.48; letter-spacing: .02em; }
-    #home-screen { position: absolute; left: 635px; top: 55px; width: 1190px; height: 968px; }
+    #home-copy > span { display: inline-block; opacity: 0; }
+    #home-screen { position: absolute; left: 635px; top: 55px; width: 1190px; height: 968px; opacity: .18; }
     #home-image { display: block; width: 100%; height: 100%; object-fit: contain; border-radius: 18px; box-shadow: 0 24px 65px rgba(74,55,43,.17); }
     #home-accent { position: absolute; left: 105px; top: 624px; width: 105px; height: 5px; border-radius: 5px; background: #a8b99f; }
   </style>
-  <div id="root" data-composition-id="home" data-width="1920" data-height="1080" data-composition-variables='[{"id":"home_copy_1","type":"string","label":"テロップ1行目","default":"読書の記録を、"},{"id":"home_copy_2","type":"string","label":"テロップ2行目","default":"ひと目で。"}]'>
-    <div id="home-label" class="clip" data-start="0" data-duration="10" data-track-index="1">HOME</div>
-    <div id="home-copy" class="clip" data-start="0" data-duration="10" data-track-index="2"><span data-var-text="home_copy_1">読書の記録を、</span><br /><span data-var-text="home_copy_2">ひと目で。</span></div>
-    <div id="home-accent" data-layout-ignore></div>
-    <div id="home-screen" class="clip" data-start="0" data-duration="10" data-track-index="0">
-      <img id="home-image" src="assets/screens/home.png" alt="読書記録のホーム画面" />
+  <div data-hf-id="hf-esnv" id="root" data-composition-id="home" data-width="1920" data-height="1080" data-composition-variables="[{&quot;id&quot;:&quot;home_copy_1&quot;,&quot;type&quot;:&quot;string&quot;,&quot;label&quot;:&quot;テロップ1行目&quot;,&quot;default&quot;:&quot;読書の記録を、&quot;},{&quot;id&quot;:&quot;home_copy_2&quot;,&quot;type&quot;:&quot;string&quot;,&quot;label&quot;:&quot;テロップ2行目&quot;,&quot;default&quot;:&quot;ひと目で。&quot;}]">
+    <img data-hf-id="hf-aco2" id="home-bg" src="assets/illustrations/common-bg-base.png" alt="" data-layout-ignore="" data-start="0" data-duration="6" data-media-start="0">
+    <div data-hf-id="hf-dnol" id="home-label" class="clip" data-start="0" data-duration="6" data-track-index="1" data-media-start="0">HOME</div>
+    <div data-hf-studio-original-inline-translate="" style="translate: -2.578px 51.551px" data-hf-id="hf-2sdq" id="home-copy" class="clip" data-start="0" data-duration="6" data-track-index="2" data-media-start="0"><span data-hf-id="hf-8x6i" id="home-copy-line-1">読書の記録を、</span><br data-hf-id="hf-x5px"><span data-hf-id="hf-uoow" id="home-copy-line-2">ひと目で</span></div>
+
+    <div data-hf-id="hf-azwj" id="home-screen" class="clip" data-start="0" data-duration="6" data-track-index="0" data-media-start="0">
+      <img data-hf-id="hf-eg8g" id="home-image" src="assets/screens/home.png" alt="読書記録のホーム画面" data-start="0" data-duration="6" data-media-start="0">
     </div>
+    <img data-hf-studio-original-inline-translate="" data-hf-studio-original-display="" data-hf-studio-original-box-sizing="" data-hf-studio-original-flex-shrink="" data-hf-studio-original-flex-grow="" data-hf-studio-original-flex-basis="" data-hf-studio-original-max-height="" data-hf-studio-original-max-width="" data-hf-studio-original-min-height="" data-hf-studio-original-min-width="" data-hf-studio-original-box-height="260" data-hf-studio-original-box-width="390" data-hf-studio-original-height="" data-hf-studio-original-width="" data-hf-studio-box-size="true" style="--hf-studio-width: 487px; --hf-studio-height: 324px; width: 487px; height: 324px; min-width: 0px; min-height: 0px; max-width: none; max-height: none; box-sizing: border-box; translate: 13.129px -24.884px" data-hf-id="hf-wdky" id="home-deco-bottom" src="assets/illustrations/common-deco-bottom-left.png" alt="" data-layout-ignore="" data-start="0" data-duration="6" data-media-start="0">
+    <img data-hf-id="hf-anoj" id="home-deco-top" src="assets/illustrations/common-deco-top-right.png" alt="" data-layout-ignore="" data-start="0" data-duration="6" data-media-start="0">
   </div>
   <script>
+gsap.set("#home-image", { x: -61.017, y: 6.155 });
     const tl = gsap.timeline({ paused: true });
-    tl.fromTo("#home-screen", { opacity: 0 }, { opacity: 1, duration: .65, ease: "power2.out" }, 0);
-    tl.fromTo("#home-image", { scale: 1 }, { scale: 1.035, duration: 9.4, ease: "power1.inOut" }, .25);
-    tl.fromTo("#home-label, #home-copy", { opacity: 0 }, { opacity: 1, duration: .7, ease: "power2.out" }, .3);
-    tl.fromTo("#home-screen, #home-label, #home-copy", { opacity: 1 }, { opacity: 0, duration: .35, ease: "power2.in" }, 9.62);
+    tl.fromTo("#home-screen, #home-label", { opacity: .18 }, { opacity: 1, duration: .65, ease: "power2.out" }, 0);
+    tl.fromTo("#home-image", { scale: 1 }, { scale: 1.035, duration: 4.346, ease: "power1.inOut" }, 0.315);
+    tl.fromTo("#home-copy-line-1", { opacity: 0 }, { opacity: 1, duration: 1.2, ease: "power1.inOut" }, .9);
+    tl.fromTo("#home-copy-line-2", { opacity: 0 }, { opacity: 1, duration: 1.2, ease: "power1.inOut" }, 1.85);
     window.__timelines = window.__timelines || {};
     window.__timelines["home"] = tl;
   </script>

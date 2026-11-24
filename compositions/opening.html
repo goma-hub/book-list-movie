@@ -1,30 +1,26 @@
+<style data-hf-studio-fonts="true">
+@font-face { font-family: "Zen Old Mincho"; src: url("../assets/fonts/ZenOldMincho-Regular.ttf"); font-display: swap; }
+</style>
 <template>
   <style>
+    @font-face { font-family: "Zen Old Mincho"; src: url('assets/fonts/ZenOldMincho-Regular.ttf') format('truetype'); font-style: normal; font-weight: 400; }
+    @font-face { font-family: "Zen Old Mincho"; src: url('assets/fonts/ZenOldMincho-SemiBold.ttf') format('truetype'); font-style: normal; font-weight: 600; }
     #root { position: absolute; inset: 0; overflow: hidden; background: #f7f1e6; color: #4a372b; font-family: "Noto Sans JP", sans-serif; }
-    #opening-band { position: absolute; left: 0; top: 0; width: 28px; height: 100%; background: #a8b99f; }
-    #opening-rule { position: absolute; left: 188px; top: 352px; width: 146px; height: 5px; border-radius: 5px; background: #a8b99f; }
-    #opening-copy { position: absolute; left: 188px; top: 400px; width: 1400px; }
-    #opening-title { margin: 0; font-size: 142px; line-height: 1.15; font-weight: 700; letter-spacing: .04em; }
-    #opening-tagline { margin: 42px 0 0; font-size: 48px; line-height: 1.5; font-weight: 400; }
-    #opening-dot { position: absolute; right: 155px; top: 150px; width: 245px; height: 245px; border: 3px solid #ddcbb5; border-radius: 50%; }
-    #opening-dot-inner { position: absolute; right: 220px; top: 215px; width: 115px; height: 115px; background: #ddcbb5; border-radius: 50%; }
+    #opening-art { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+    #opening-copy { position: absolute; left: 148px; top: 213px; width: 950px; z-index: 1; text-shadow: 0 2px 12px rgba(255, 252, 245, .8); }
+    #opening-title { margin: 0; font-family: "Zen Old Mincho", serif; font-size: 118px; line-height: 1.2; font-weight: 600; letter-spacing: .05em; }
+    #opening-tagline { margin: 35px 0 0; font-family: "Zen Old Mincho", serif; font-size: 44px; line-height: 1.5; font-weight: 400; letter-spacing: .02em; }
   </style>
-  <div id="root" data-composition-id="opening" data-width="1920" data-height="1080" data-composition-variables='[{"id":"opening_title","type":"string","label":"タイトル","default":"読書記録"},{"id":"opening_tagline","type":"string","label":"テロップ","default":"読んだ本を、手軽に記録。"}]'>
-    <div id="opening-band" data-layout-ignore></div>
-    <div id="opening-rule" data-layout-ignore></div>
-    <div id="opening-dot" data-layout-ignore></div>
-    <div id="opening-dot-inner" data-layout-ignore></div>
-    <div id="opening-copy" class="clip" data-start="0" data-duration="5" data-track-index="0" data-hold>
-      <h1 id="opening-title" data-var-text="opening_title">読書記録</h1>
-      <p id="opening-tagline" data-var-text="opening_tagline">読んだ本を、手軽に記録。</p>
+  <div data-hf-id="hf-n4sx" id="root" data-composition-id="opening" data-width="1920" data-height="1080" data-composition-variables="[{&quot;id&quot;:&quot;opening_title&quot;,&quot;type&quot;:&quot;string&quot;,&quot;label&quot;:&quot;タイトル&quot;,&quot;default&quot;:&quot;読書記録&quot;},{&quot;id&quot;:&quot;opening_tagline&quot;,&quot;type&quot;:&quot;string&quot;,&quot;label&quot;:&quot;テロップ&quot;,&quot;default&quot;:&quot;読んだ本を、手軽に記録。&quot;}]">
+    <img data-hf-id="hf-igaq" id="opening-art" src="assets/illustrations/opening.png" alt="" data-layout-ignore="">
+    <div data-hf-id="hf-jw16" id="opening-copy" class="clip" data-start="0" data-duration="5" data-track-index="0" data-hold="">
+      <h1 style="color: rgb(108, 24, 24); font-family: &quot;Zen Old Mincho&quot;, ui-sans-serif, system-ui, sans-serif" data-hf-id="hf-3lez" id="opening-title" data-var-text="opening_title">読書記録</h1>
+      <p data-hf-id="hf-2kz7" id="opening-tagline" data-var-text="opening_tagline">読んだ本を、手軽に記録。</p>
     </div>
   </div>
   <script>
     const tl = gsap.timeline({ paused: true });
-    tl.fromTo("#opening-tagline", { opacity: 0 }, { opacity: 1, duration: .7, ease: "power2.out" }, .25);
-    tl.fromTo("#opening-rule", { scaleX: .25, transformOrigin: "left center" }, { scaleX: 1, duration: 1.1, ease: "power2.out" }, .15);
-    tl.fromTo("#opening-dot-inner", { scale: .75, opacity: .35 }, { scale: 1, opacity: 1, duration: 1.3, ease: "power2.out" }, .15);
-    tl.fromTo("#opening-copy", { opacity: 1 }, { opacity: 0, duration: .35, ease: "power2.in" }, 4.62);
+    tl.fromTo("#opening-tagline", { opacity: 0 }, { opacity: 1, duration: 1, ease: "power1.inOut" }, 1.5);
     window.__timelines = window.__timelines || {};
     window.__timelines["opening"] = tl;
   </script>

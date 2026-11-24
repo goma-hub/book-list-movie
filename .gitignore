@@ -1,6 +1,7 @@
 # Regenerable HyperFrames caches and inspection output.
 /node_modules/
 /.hyperframes/artifacts/
+/.hyperframes/backup/
 /.hyperframes/cache/
 /.hyperframes/preview/
 /.thumbnails/
